@@ -1,0 +1,95 @@
+Pane {
+    -fx-background-color: #2b2b42;
+}
+
+
+GridPane{
+    -fx-background-color: #2e2e48;
+    -fx-border-style:solid;
+    -fx-border-width: 2px;
+    -fx-border-color: #70709f;
+}
+VBox{
+    -fx-background-color: transparent;
+}
+HBox{
+    -fx-background-color: transparent;
+}
+
+#infoLabel{
+    -fx-font-family:"Roboto Medium";
+    -fx-font-size: 20px;
+    -fx-text-fill: #efefff;
+    -fx-font-weight: 700;
+}
+
+/*#imageViewArtist{*/
+/*    -fx-border-style: solid;*/
+/*    -fx-border-color: #efefff;*/
+/*    -fx-border-width: 5px;*/
+/*    -fx-border-radius: 30px;*/
+/*}*/
+#equalizerAnimation{
+    -fx-opacity: 50%;
+}
+
+#closeWindowButton {
+    -fx-background-color: transparent;
+    -fx-align-items: center;
+    -fx-opacity: 50%;
+}
+#closeWindowButton:hover{
+    -fx-opacity: 100%;
+}
+#favoriteButton{
+    -fx-background-color:transparent;
+    -fx-align-items: center;
+    -fx-opacity: 50%;
+}
+#favoriteButton:hover{
+    -fx-opacity: 100%;
+}
+
+#playButton{
+    -fx-background-color:transparent;
+    -fx-align-items: center;
+    -fx-opacity: 50%;
+}
+#playButton:hover{
+    -fx-opacity: 100%;
+}
+
+#stopButton{
+    -fx-background-color:transparent;
+    -fx-align-items: center;
+    -fx-opacity: 50%;
+}
+#stopButton:hover{
+    -fx-opacity: 100%;
+}
+
+Label {
+    -fx-font-family:"Roboto Medium";
+    -fx-font-size: 20px;
+    -fx-text-fill: #efefff;
+    -fx-font-weight: 500;
+}
+
+#artistLabelInfo{
+    -fx-font-family:"Roboto Medium";
+    -fx-font-size: 20px;
+    -fx-text-fill: #efefff;
+    -fx-font-weight: 700;
+}
+
+#songTitleLabel{
+    -fx-font-family:"Roboto Medium";
+    -fx-font-size: 20px;
+    -fx-text-fill: #efefff;
+    -fx-font-weight: 700;
+}
+
+
+pane {
+    -fx-background-color: #2b2b42;
+}

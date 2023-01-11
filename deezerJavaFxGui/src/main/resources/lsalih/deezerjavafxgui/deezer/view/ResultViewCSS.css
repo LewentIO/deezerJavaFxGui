@@ -1,0 +1,134 @@
+Pane {
+    -fx-background-color: #2b2b42;
+}
+ScrollPane{
+    -fx-background-color: transparent;
+}
+/*ScrollPane .scroll-bar{*/
+/*    -fx-border-width: thin;*/
+
+/*}*/
+
+ScrollPane .scroll-bar:vertical .thumb,
+ScrollPane .scroll-bar:horizontal .thumb{
+    -fx-background-color: #efefff;
+    -fx-opacity: 50%;
+    /*-fx-background-radius : 30px;*/
+    /*-fx-border-radius :30px;*/
+}
+ScrollPane .scroll-bar:vertical .thumb:hover,
+ScrollPane .scroll-bar:horizontal .thumb:hover{
+    -fx-background-color: #efefff;
+    -fx-opacity: 100%;
+    /*-fx-background-radius : 30px;*/
+    /*-fx-border-radius :30px;*/
+}
+
+
+ScrollPane .scroll-bar:vertical .track,
+ScrollPane .scroll-bar:horizontal .track,
+ScrollPane .scroll-bar:vertical .increment-button,
+ScrollPane .scroll-bar:vertical .decrement-button,
+ScrollPane .scroll-bar:horizontal .increment-button,
+ScrollPane .scroll-bar:horizontal .decrement-button,{
+    -fx-background-color: #2b2b42;
+    -fx-border-color :transparent;
+    -fx-background-radius : 30px;
+    -fx-border-radius :30px;
+}
+
+GridPane{
+    /*-fx-background-color: #2e2e48;*/
+    /*-fx-border-style:solid;*/
+    /*-fx-border-width: 2px;*/
+    /*-fx-border-color: #70709f;*/
+}
+VBox{
+    -fx-background-color: transparent;
+}
+HBox{
+    -fx-background-color: transparent;
+}
+
+
+#backButton {
+    -fx-background-color: transparent;
+    -fx-align-items: center;
+    -fx-opacity: 50%;
+}
+#backButton:hover{
+    -fx-opacity: 100%;
+}
+
+
+#infobutton{
+    -fx-background-color:transparent;
+    -fx-align-items: center;
+    -fx-opacity: 50%;
+}
+#infobutton:hover{
+    -fx-opacity: 100%;
+}
+
+#favoriteButton{
+    -fx-background-color:transparent;
+    -fx-align-items: center;
+    -fx-opacity: 50%;
+}
+#favoriteButton:hover{
+    -fx-opacity: 100%;
+}
+#favoriteButtonSelected{
+    -fx-background-color:transparent;
+    -fx-align-items: center;
+    -fx-opacity: 100%;
+}
+
+Label {
+    -fx-background-color:transparent;
+    -fx-font-family:"Roboto Medium";
+    -fx-font-size: 18px;
+    -fx-text-fill: #efefff;
+    -fx-font-weight: 700;
+}
+
+#artistLabelSongName{
+    -fx-font-family:"Roboto Medium";
+    -fx-font-size: 16px;
+    -fx-text-fill: #efefff;
+    -fx-font-weight: 700;
+}
+#artistLabelArtistName{
+    -fx-font-family:"Roboto Medium";
+    -fx-font-size: 16px;
+    -fx-text-fill: #efefff;
+    -fx-font-weight: 600;
+}
+
+#albumLabelAlbumName{
+    -fx-font-family:"Roboto Medium";
+    -fx-font-size: 16px;
+    -fx-text-fill: #efefff;
+    -fx-font-weight: 700;
+}
+#albumLabelArtistName{
+    -fx-font-family:"Roboto Medium";
+    -fx-font-size: 16px;
+    -fx-text-fill: #efefff;
+    -fx-font-weight: 600;
+}
+
+Line {
+
+}
+#closeWindowButton {
+    -fx-background-color: transparent;
+    -fx-align-items: center;
+    -fx-opacity: 50%;
+}
+#closeWindowButton:hover{
+    -fx-opacity: 100%;
+}
+pane {
+    -fx-background-color: #2b2b42;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lsalih.deezerjavafxgui.deezer.Controller">
+   <children>
+      <Label layoutX="70.0" layoutY="70.0" prefHeight="27.0" prefWidth="66.0" text="Search">
+         <font>
+            <Font name="Malgun Gothic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="379.0" layoutY="135.0" mnemonicParsing="false" text="Search" />
+      <TextField layoutX="70.0" layoutY="135.0" prefHeight="25.0" prefWidth="284.0" promptText="Song, Artist, Album" />
+      <Separator layoutX="70.0" layoutY="113.0" prefHeight="0.0" prefWidth="361.0" />
+      <Button layoutX="70.0" layoutY="214.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="361.0" text="Favorite List" />
+      <Label layoutX="70.0" layoutY="319.0" prefHeight="27.0" prefWidth="66.0" text="Genre">
+         <font>
+            <Font name="Malgun Gothic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="379.0" layoutY="384.0" mnemonicParsing="false" text="Search" />
+      <TextField layoutX="70.0" layoutY="384.0" prefHeight="25.0" prefWidth="284.0" promptText="Genre" />
+      <Separator layoutX="70.0" layoutY="362.0" prefHeight="0.0" prefWidth="361.0" />
+      <Button layoutX="70.0" layoutY="466.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Pop" />
+      <Button layoutX="200.0" layoutY="466.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Rock" />
+      <Button layoutX="331.0" layoutY="466.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Hip Hop" />
+      <Button layoutX="70.0" layoutY="552.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="House" />
+      <Button layoutX="200.0" layoutY="552.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Dance &amp; EDM" />
+      <Button layoutX="331.0" layoutY="552.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="R&amp;B" />
+      <Button alignment="CENTER" layoutX="70.0" layoutY="638.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Latin" />
+      <Button alignment="CENTER" layoutX="200.0" layoutY="638.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Jazz" />
+      <Button alignment="CENTER" layoutX="331.0" layoutY="638.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Metal" />
+      <Button layoutX="158.0" layoutY="738.0" mnemonicParsing="false" onAction="#switchToResultView" text="SearchResult" />
+      <Button layoutX="258.0" layoutY="738.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="InfoView" />
+      <ImageView fitHeight="25.0" fitWidth="142.0" layoutX="317.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logos/dezzer_logo_01.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,8 @@
+#closeWindowButton {
+    -fx-background-color: transparent;
+    -fx-align-items: center;
+    -fx-opacity: 50%;
+}
+#closeWindowButton:hover{
+    -fx-opacity: 100%;
+}

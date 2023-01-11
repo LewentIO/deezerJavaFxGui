@@ -1,0 +1,78 @@
+Pane {
+    -fx-background-color: #2b2b42;
+}
+
+
+
+TextField {
+    all: none;
+    -fx-text-fill: #efefff;
+    -fx-font-family: "Roboto Medium";
+    -fx-font-size: 18;
+    -fx-font-weight: 500;
+    -fx-background-color: #efefff;
+}
+
+TextField:focused {
+
+}
+
+#searchButton {
+    -fx-background-radius: 0 30 30 0;
+    -fx-font-family: "Roboto Medium";
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: #efefff;
+    -fx-color: #efefff;
+    -fx-background-color: #5a84fc;
+    /*-fx-padding: 10px 30px;*/
+    /*-fx-border: solid #5a84fc 2px;*/
+    -fx-transition: 1511ms;
+    -fx-align-items: center;
+    -fx-cursor: pointer;
+    -fx-text-transform: uppercase;
+}
+
+#searchButton:hover, #favoriteButton:hover {
+    -fx-background-color: #efefff;
+    -fx-color: #5a84fc;
+    -fx-text-fill: #2b2b42;
+}
+
+#favoriteButton{
+    -fx-background-radius: 30px;
+    -fx-font-family: "Roboto Medium";
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: #efefff;
+    -fx-color: #efefff;
+    -fx-background-color: #5a84fc;
+    -fx-transition: 1511ms;
+    -fx-align-items: center;
+    -fx-cursor: pointer;
+    -fx-text-transform: uppercase;
+}
+#closeWindowButton {
+    -fx-background-color: transparent;
+    -fx-align-items: center;
+    -fx-opacity: 50%;
+}
+#closeWindowButton:hover{
+    -fx-opacity: 100%;
+}
+
+Label {
+
+    -fx-font-family:"Roboto Medium";
+    -fx-font-size: 20;
+    -fx-text-fill: #efefff;
+    -fx-font-weight: 700;
+}
+
+Line {
+
+}
+
+pane {
+    -fx-background-color: #2b2b42;
+}
